@@ -38,10 +38,10 @@ def build_docs(versions):
             for line in fileinput.input("redirects.js", inplace=1):
                 print(line.replace("/latest/", f"/{v}/"), end='')
 
-        # set the version in "urlPath" variable in docusaurus.config.js
-        replacement = f'var urlPath = "{v}";'
+        # set the version in "buildVersion" variable in docusaurus.config.js
+        replacement = f'var buildVersion = "{v}";'
         for line in fileinput.input("docusaurus.config.js", inplace=1):
-            print(re.sub(r"^var urlPath.*", replacement, line), end='')
+            print(re.sub(r"^var buildVersion.*", replacement, line), end='')
 
         # build the docs
         subprocess.run(["npm", "run", "build"])

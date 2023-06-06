@@ -1,4 +1,4 @@
-/*Imports the variables that're used to specify the following the following
+/*Imports the variables that're used to specify the following
 - the docs sub directory that has the version of the docs you want to publish
 - the Druid version (release.version)
 
@@ -8,9 +8,9 @@ var Releases = require('./static/js/version.js').Releases;
 const Redirects = require('./redirects.js').Redirects;
 
 /*
-The routing of the built site is determined by urlpath. If urlPath set to latest, you get http://localhost:3000/docs/latest/design/ built
+The routing of the built site is determined by buildVersion. If buildVersion set to latest, you get http://localhost:3000/docs/latest/design/ built
 */
-var urlPath = "latest";
+var buildVersion = "latest";
 
 module.exports={
   "title": "Apache® Druid",
@@ -42,8 +42,8 @@ module.exports={
           "exclude": [
             '**incubating/**'
           ],
-          "path": "./docs/"+Releases[0].version,
-          "routeBasePath": "/docs/"+urlPath,
+          "path": "./docs/"+buildVersion,
+          "routeBasePath": "/docs/"+buildVersion,
           "sidebarPath": "./sidebars.json"
         },
         "theme": {
@@ -94,7 +94,7 @@ module.exports={
         "position": "right",
     },
         {
-          "to": "/docs/"+urlPath+"/design/",
+          "to": "/docs/"+buildVersion+"/design/",
           "label": "Docs",
           "position": "right"
         },
