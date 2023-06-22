@@ -50,7 +50,7 @@ export default () => {
 
   function noData()
 {
-  document.getElementById("keywordList").innerHTML = "There was an error fetching articles.";
+  console.log("There was an error fetching articles.");
 }
 
 
