@@ -8,7 +8,6 @@ import "../../static/css/base.css";
 import {useState, useEffect} from 'react';
 
 
-
 /* Imports for the 3 widgets on the right for events, content, and releases
 */
 import { EventsContainer } from "../../static/js/EventsWidget";
@@ -23,36 +22,25 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 
-
 export default () => {
   const [content, setContent] = useState([]);
   useEffect(() => {
     fetchFeaturedContent();
   }, []);
 
-  function loadJSON(path, success, error) {
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4) {
-        if (xhr.status === 200) {
-          setContent(JSON.parse(xhr.responseText));
-        }
-        else {
-          error();
-        }
+  const fetchFeaturedContent = async () => {
+    try{
+      const response = await fetch('http://localhost:3004/posts');
+      if(response.ok) {
+        const data = await response.json();
+        setContent(data);
+      } else {
+        throw new Error('Error fetching JSON');
       }
-    };
-    xhr.open('GET', path, true);
-    xhr.send();
-  }
-  
-  loadJSON("../static/data/resources.json", setContent, noData);
-
-  function noData()
-{
-  document.getElementById("keywordList").innerHTML = "There was an error fetching articles.";
-}
-
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <Layout title="Apache Druid">

@@ -34,7 +34,7 @@ export function Events({ data }) {
   );
 }
 
-export  function EventsContainer({ jsonData }) {
+export function EventsContainer({ jsonData }) {
   return ( 
     <div>
       {jsonData.map((data) => (
