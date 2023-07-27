@@ -8,11 +8,12 @@ title: Powered by Apache Druid
   </div>
 </div>
 
+:::tip
 
-<div class="alert alert-success">
 <a href="https://github.com/apache/druid-website-src/blob/master/druid-powered.md">
-<span class="fa fa-plus"></span> <strong> Add your company</strong></a>
-</div>
+<span class="fa fa-plus"></span> Add your company</a>
+
+:::
 
 There are numerous companies of various sizes in production with Druid. Some of them are listed below.
 
