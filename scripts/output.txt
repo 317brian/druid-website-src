@@ -1,0 +1,596 @@
+
+Checking docs source from the following:
+Repo:	'/Users/brian/druid'
+Branch:	'27.0.0'
+
+Is the listed docs source correct? (y/n) Is 27.0.0 going to be the highest version available for download? If yes, the docs will also be used for 'latest'. (y/n) 404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+
+> build
+> docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+ℹ Compiling Client
+ℹ Compiling Server
+✔ Client: Compiled successfully in 33.12s
+✔ Server: Compiled successfully in 40.70s
+docusaurus-lunr-search:: Building search docs and lunr index file
+docusaurus-lunr-search:: Start scanning documents in 10 threads
+docusaurus-lunr-search:: Indexing time: 2.455s
+docusaurus-lunr-search:: indexed 242 documents out of 252
+docusaurus-lunr-search:: writing search-doc.json
+docusaurus-lunr-search:: writing search-doc-1692227723592.json
+docusaurus-lunr-search:: writing lunr-index.json
+docusaurus-lunr-search:: writing lunr-index-1692227723592.json
+docusaurus-lunr-search:: End of process
+[INFO] Docusaurus found broken links!
+
+Please check the pages of your site in the list below, and make sure you don't reference any path that does not exist.
+Note: it's possible to ignore broken links with the 'onBrokenLinks' Docusaurus configuration, and let the build pass.
+
+Exhaustive list of all broken links found:
+
+- On source page path = /community/:
+   -> linking to /docs/latest/design
+   -> linking to /docs/latest/development/modules
+
+- On source page path = /downloads:
+   -> linking to /docs/latest/development/versioning
+   -> linking to /docs/latest/tutorials/
+   -> linking to /docs/latest/development/extensions-core/mysql
+
+- On source page path = /faq:
+   -> linking to /docs/latest/design/segments
+   -> linking to /docs/latest/tutorials/
+
+- On source page path = /libraries:
+   -> linking to /docs/latest/operations/insert-segment-to-db
+
+- On source page path = /technology:
+   -> linking to /docs/latest/design
+   -> linking to /docs/latest/ingestion/index.html
+   -> linking to /docs/latest/design/segments
+   -> linking to /docs/latest/querying/
+
+- On source page path = /use-cases:
+   -> linking to /docs/latest/querying/aggregations
+   -> linking to /docs/latest/development/extensions-core/datasketches-extension
+
+- On source page path = /docs/27.0.0/api-reference/dynamic-configuration-api:
+   -> linking to ../configuration/index.html#overlord-dynamic-configuration (resolved as: /docs/27.0.0/configuration/index.html)
+   -> linking to ../configuration/index.html#dynamic-configuration (resolved as: /docs/27.0.0/configuration/index.html)
+
+[SUCCESS] Generated static files in "build".
+[INFO] Use `npm run serve` command to test your build locally.
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+
+> build
+> docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+ℹ Compiling Client
+ℹ Compiling Server
+✔ Client: Compiled successfully in 34.38s
+✔ Server: Compiled successfully in 42.32s
+docusaurus-lunr-search:: Building search docs and lunr index file
+docusaurus-lunr-search:: Start scanning documents in 10 threads
+docusaurus-lunr-search:: Indexing time: 2.315s
+docusaurus-lunr-search:: indexed 242 documents out of 252
+docusaurus-lunr-search:: writing search-doc.json
+docusaurus-lunr-search:: writing search-doc-1692227773864.json
+docusaurus-lunr-search:: writing lunr-index.json
+docusaurus-lunr-search:: writing lunr-index-1692227773864.json
+docusaurus-lunr-search:: End of process
+[INFO] Docusaurus found broken links!
+
+Please check the pages of your site in the list below, and make sure you don't reference any path that does not exist.
+Note: it's possible to ignore broken links with the 'onBrokenLinks' Docusaurus configuration, and let the build pass.
+
+Exhaustive list of all broken links found:
+
+- On source page path = /docs/latest/api-reference/dynamic-configuration-api:
+   -> linking to ../configuration/index.html#overlord-dynamic-configuration (resolved as: /docs/latest/configuration/index.html)
+   -> linking to ../configuration/index.html#dynamic-configuration (resolved as: /docs/latest/configuration/index.html)
+
+[SUCCESS] Generated static files in "build".
+[INFO] Use `npm run serve` command to test your build locally.
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index-1692227773864.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc-1692227773864.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+404.html
+assets
+build
+community
+community.html
+docs
+downloads
+downloads.html
+druid-powered
+druid-powered.html
+faq
+faq.html
+img
+index.html
+js
+libraries
+libraries.html
+licensing
+licensing.html
+lunr-index-1692225613881.json
+lunr-index-1692225629638.json
+lunr-index-1692225768955.json
+lunr-index-1692225816523.json
+lunr-index-1692226370004.json
+lunr-index-1692226418818.json
+lunr-index-1692226495081.json
+lunr-index-1692226551401.json
+lunr-index-1692226874031.json
+lunr-index-1692226924569.json
+lunr-index-1692227723592.json
+lunr-index-1692227773864.json
+lunr-index.json
+search-doc-1692225613881.json
+search-doc-1692225629638.json
+search-doc-1692225768955.json
+search-doc-1692225816523.json
+search-doc-1692226370004.json
+search-doc-1692226418818.json
+search-doc-1692226495081.json
+search-doc-1692226551401.json
+search-doc-1692226874031.json
+search-doc-1692226924569.json
+search-doc-1692227723592.json
+search-doc-1692227773864.json
+search-doc.json
+sitemap.xml
+technology
+technology.html
+use-cases
+use-cases.html
+Also copying the docs to docs/latest.
+Building the docs for version '27.0.0'...
+0 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+1 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+3 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+4 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+build/docs/27.0.0/
+
+published_versions/docs/27.0.0/
+
+
+
+5 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+Building the docs for version 'latest'...
+0 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+1 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+3 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+4 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
+build/docs/latest/
+
+published_versions/docs/latest/
+
+
+
+5 CompletedProcess(args=['ls', 'published_versions'], returncode=0)
