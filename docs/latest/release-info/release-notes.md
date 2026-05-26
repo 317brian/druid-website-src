@@ -416,6 +416,10 @@ The new configuration property `druid.msq.intermediate.storage.cleaner.durationT
 - Added the `druid.storage.transfer.asyncHttpClientType` config that specifies which async HTTP client to use for S3 transfers: `crt` for Amazon CRT or `netty` for Netty NIO [#19249](https://github.com/apache/druid/pull/19249)
 - Added a mechanism to automatically clean up intermediary files on HDFS storage [#19187](https://github.com/apache/druid/pull/19187)
 
+### Data management
+
+#### Other data management improvements
+
 ### Metrics and monitoring
 
 #### `buildRevision` field
@@ -509,6 +513,8 @@ Added support for `lz4` compression. As part of this change, the following metri
 - `hdfs/push/duration`
 
 [#18982](https://github.com/apache/druid/pull/18982)
+
+### Documentation improvements
 
 ## Upgrade notes and incompatible changes
 
